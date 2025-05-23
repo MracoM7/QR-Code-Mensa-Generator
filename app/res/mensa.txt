@@ -1,5 +1,5 @@
-22/052025
-Codice: 364383
+23/052025
+Codice: 364289
 Pranzo
 [node:field_primi_piatti:entity]
 [node:field_secondi_piatti:entity]
