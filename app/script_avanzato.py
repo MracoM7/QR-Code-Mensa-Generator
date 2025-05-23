@@ -1,4 +1,5 @@
 from datetime import date
+from pathlib import Path
 from bs4 import BeautifulSoup
 import re
 import qrcode 
@@ -10,7 +11,8 @@ import getpass
 luogo = "Pg-Ingegneria"
 presenza_asporto = "In presenza" 
 menu_tipo = "STANDARD"
-path = "./app/"
+path = str(Path(__file__).resolve().parent) + "/"
+
 
 def getMenu():
     # Inserisci qui le tue credenziali
@@ -361,9 +363,7 @@ if menu: # Se il menu è stato recuperato con successo
     generaQR()
     generaHTML(codice, data, primo_piatto, secondo_piatto, contorno, frutta, dessert)
 
-    
-
     print(f"Modifiche completate! Codice pranzo: {codice}, Data: {data}")
 
 else:
-    print("Errore nel recupero del menu")
+    print("Errore nel recuperare il menu")
