@@ -14,7 +14,7 @@ cd QR-Code-Mensa-Generator
 # Installa le dipendenze
 pip install -r requirements.txt
 ```
-📱 Utilizzo
+## 📱 Utilizzo
 Script Avanzato (Automatico)
 ```bash
 python src/advanced_script.py
@@ -23,19 +23,19 @@ Script Base (Manuale)
 ```bash
 python src/basic_script.py
 ```
-⚙️ Configurazione
+## ⚙️ Configurazione
 Modifica config.py per:
 
 Cambiare URL della mensa
 Personalizzare aspetto QR code
 Modificare formato output
 
-📋 Requisiti
+## 📋 Requisiti
 
 Python 3.7+
 Internet (per script avanzato)
 
-🤝 Contributi
+## 🤝 Contributi
 I contributi sono benvenuti! Apri una issue o una pull request.
-📄 Licenza
+## 📄 Licenza
 MIT License - vedi LICENSE file
