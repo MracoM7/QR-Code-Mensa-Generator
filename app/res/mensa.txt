@@ -1,8 +1,0 @@
-23/052025
-Codice: 364289
-Pranzo
-[node:field_primi_piatti:entity]
-[node:field_secondi_piatti:entity]
-[node:field_contorni:entity]
-[node:field_frutta:entity]
-[node:field_dessert:entity]
