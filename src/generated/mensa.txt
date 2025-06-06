@@ -1,0 +1,8 @@
+06/062025
+Codice: 364922
+Pranzo
+prinad
+gnamgnam
+buonove
+[node:field_frutta:entity]
+[node:field_dessert:entity]
