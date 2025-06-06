@@ -13,12 +13,16 @@ cd QR-Code-Mensa-Generator
 
 # Installa le dipendenze
 pip install -r requirements.txt
-
+```
 📱 Utilizzo
 Script Avanzato (Automatico)
-bashpython src/advanced_script.py
+```bash
+python src/advanced_script.py
+```
 Script Base (Manuale)
-bashpython src/basic_script.py
+```bash
+python src/basic_script.py
+```
 ⚙️ Configurazione
 Modifica config.py per:
 
